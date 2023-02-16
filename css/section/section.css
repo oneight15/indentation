@@ -17,21 +17,19 @@
   color: #5e5e5e;
 }
 
-.section__text_border_around {
+.section__text_type_place {
+  padding: 15px 30px;
   border: 1px solid #000000;
   border-top: none;
 }
 
-.section__text_type_place {
-  padding: 15px 30px;
-}
-
-.section__figure:not(:last-child) {
+.section__figure {
   margin-bottom: 30px;
 }
 
-.section__figure_border_around {
-  border: 1px solid #000000;
+.section__figure_space_zero,
+.section__figure:last-child {
+  margin-bottom: 0;
 }
 
 .section__image {
@@ -64,16 +62,12 @@
   max-width: 560px;
 }
 
-.section__image_type_list-markup {
-  max-width: 1080px;
-}
-
 .section__image_type_list-web {
   max-width: 600px;
 }
 
 .section__image_type_list-item-margin {
-  max-width: 1080px;
+  margin-bottom: 0;
 }
 
 .section__image_type_section-markup {
@@ -93,16 +87,7 @@
 }
 
 .section__image_type_good-recipes-markup {
-  max-width: 1080px;
   margin-bottom: 0;
-}
-
-.section__image_type_bad-recipes-markup {
-  max-width: 1080px;
-}
-
-.section__image_type_header-web {
-  max-width: 1080px;
 }
 
 .section__image_type_header-markup {
