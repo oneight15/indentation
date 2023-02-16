@@ -9,12 +9,39 @@
   margin-bottom: 30px;
 }
 
-.section__text_size_small {
+.section__text_size_short {
   max-width: 480px;
 }
 
-.section__image {
+.section__text_color_grey {
+  color: #5e5e5e;
+}
+
+.section__text_border_around {
+  border: 1px solid #000000;
+  border-top: none;
+}
+
+.section__text_type_place {
+  padding: 15px 30px;
+}
+
+.section__figure:not(:last-child) {
   margin-bottom: 30px;
+}
+
+.section__figure_border_around {
+  border: 1px solid #000000;
+}
+
+.section__image {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.section__image:last-child {
+  margin-bottom: 0;
 }
 
 .section__part {
@@ -26,13 +53,68 @@
   margin-bottom: 0;
 }
 
-.section__image_margin {
+.section__image_type_margin {
   float: left;
   margin-right: 30px;
+  max-width: 560px;
 }
 
-.section__image_padding {
+.section__image_type_padding {
   float: right;
+  max-width: 560px;
+}
+
+.section__image_type_list-markup {
+  max-width: 1080px;
+}
+
+.section__image_type_list-web {
+  max-width: 600px;
+}
+
+.section__image_type_list-item-margin {
+  max-width: 1080px;
+}
+
+.section__image_type_section-markup {
+  max-width: 964px;
+}
+
+.section__image_type_section-padding {
+  max-width: 1022px;
+}
+
+.section__image_type_recipes {
+  max-width: 600px;
+}
+
+.section__image_type_recipes-margin {
+  max-width: 600px;
+}
+
+.section__image_type_good-recipes-markup {
+  max-width: 1080px;
+  margin-bottom: 0;
+}
+
+.section__image_type_bad-recipes-markup {
+  max-width: 1080px;
+}
+
+.section__image_type_header-web {
+  max-width: 1080px;
+}
+
+.section__image_type_header-markup {
+  max-width: 806px;
+}
+
+.section__image_type_header-margin {
+  max-width: 317px;
+}
+
+.section__image_type_last-child {
+  max-width: 500px;
 }
 
 .section__caption {

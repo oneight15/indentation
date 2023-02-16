@@ -60,3 +60,24 @@ fieldset {
   padding-top: 25px;
   padding-bottom: 25px;
 }
+
+.section:first-child {
+  padding-top: 60px;
+}
+
+.section:last-child {
+  padding-bottom: 50px;
+}
+
+.text-important {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-grey {
+  color: #5E5E5E;
+}
