@@ -1,2 +1,7 @@
 @import url("normalize.css");
 @import url("global.css");
+@import url("article/article.css");
+@import url("section/section.css");
+@import url("menu/menu.css");
+@import url("navigation/navigation.css");
+@import url("total/total.css");

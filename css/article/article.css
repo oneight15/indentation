@@ -1,0 +1,14 @@
+.article {
+  padding-top: 60px;
+}
+
+.article__title {
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.article__desc:not(:last-child) {
+  margin-bottom: 30px;
+}

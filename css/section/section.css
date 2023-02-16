@@ -1,0 +1,40 @@
+.section__title {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.section__text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.section__text_size_small {
+  max-width: 480px;
+}
+
+.section__image {
+  margin-bottom: 30px;
+}
+
+.section__part {
+  display: flow-root;
+  margin-bottom: 30px;
+}
+
+.section__part:last-child {
+  margin-bottom: 0;
+}
+
+.section__image_margin {
+  float: left;
+  margin-right: 30px;
+}
+
+.section__image_padding {
+  float: right;
+}
+
+.section__caption {
+  margin-bottom: 30px;
+}

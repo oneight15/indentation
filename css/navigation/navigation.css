@@ -1,0 +1,12 @@
+.navigation__list {
+  padding-left: 70px;
+}
+
+.navigation__item {
+  color: #02535f;
+  margin-bottom: 10px;
+}
+
+.navigation__item:last-child {
+  margin-bottom: 0;
+}
