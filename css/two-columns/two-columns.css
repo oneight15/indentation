@@ -1,0 +1,19 @@
+.two-columns {
+  display: flow-root;
+}
+
+.two-columns__right {
+  float: right;
+  max-width: 490px;
+}
+
+.two-columns__left {
+  float: left;
+  max-width: 480px;
+  margin-right: 40px;
+}
+
+.two-columns__image:first-child {
+  margin-bottom: 30px;
+}
+

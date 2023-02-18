@@ -1,5 +1,5 @@
 .navigation__list {
-  padding-left: 70px;
+  list-style-position: inside;
 }
 
 .navigation__item {

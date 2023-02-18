@@ -9,99 +9,22 @@
   margin-bottom: 30px;
 }
 
-.section__text_size_short {
-  max-width: 480px;
-}
-
-.section__text_color_grey {
-  color: #5e5e5e;
-}
-
-.section__text_type_place {
-  padding: 15px 30px;
-  border: 1px solid #000000;
-  border-top: none;
-}
-
-.section__figure {
+.section__figure:not(:last-child) {
   margin-bottom: 30px;
-}
-
-.section__figure_space_zero,
-.section__figure:last-child {
-  margin-bottom: 0;
 }
 
 .section__image {
   display: block;
   margin: 0 auto;
+}
+
+.section__image_space_bottom {
   margin-bottom: 30px;
-}
-
-.section__image:last-child {
-  margin-bottom: 0;
-}
-
-.section__part {
-  display: flow-root;
-  margin-bottom: 30px;
-}
-
-.section__part:last-child {
-  margin-bottom: 0;
-}
-
-.section__image_type_margin {
-  float: left;
-  margin-right: 30px;
-  max-width: 560px;
-}
-
-.section__image_type_padding {
-  float: right;
-  max-width: 560px;
-}
-
-.section__image_type_list-web {
-  max-width: 600px;
-}
-
-.section__image_type_list-item-margin {
-  margin-bottom: 0;
-}
-
-.section__image_type_section-markup {
-  max-width: 964px;
-}
-
-.section__image_type_section-padding {
-  max-width: 1022px;
-}
-
-.section__image_type_recipes {
-  max-width: 600px;
-}
-
-.section__image_type_recipes-margin {
-  max-width: 600px;
-}
-
-.section__image_type_good-recipes-markup {
-  margin-bottom: 0;
-}
-
-.section__image_type_header-markup {
-  max-width: 806px;
-}
-
-.section__image_type_header-margin {
-  max-width: 317px;
-}
-
-.section__image_type_last-child {
-  max-width: 500px;
 }
 
 .section__caption {
-  margin-bottom: 30px;
+  color: #5e5e5e;
+  padding: 15px 30px;
+  border: 1px solid #000000;
+  border-top: none;
 }

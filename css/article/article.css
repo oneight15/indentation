@@ -1,3 +1,12 @@
+.article {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.article__header {
+  padding-bottom: 25px;
+}
+
 .article__title {
   font-size: 60px;
   line-height: 1.2;

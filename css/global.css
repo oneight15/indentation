@@ -35,10 +35,13 @@ a {
   color: inherit;
 }
 
-ul {
-  list-style: none;
+ul, ol {
   padding: 0;
   margin: 0;
+}
+
+ul {
+  list-style: none;
 }
 
 h1,
@@ -56,17 +59,28 @@ fieldset {
   margin: 0 auto;
 }
 
+.container_space_bottom {
+  margin-bottom: 50px;
+}
+
+.decor-container {
+  max-width: 1140px;
+  padding: 25px 45px;
+  margin: 0 auto;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.decor-container__title {
+  font-size: 44px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
 .section {
   padding-top: 25px;
   padding-bottom: 25px;
-}
-
-.section:first-child {
-  padding-top: 60px;
-}
-
-.section:last-child {
-  padding-bottom: 50px;
 }
 
 .text-important {
@@ -80,4 +94,8 @@ fieldset {
 
 .text-grey {
   color: #5E5E5E;
+}
+
+.footer {
+  padding-top: 25px;;
 }
